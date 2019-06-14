@@ -8,6 +8,6 @@ public class HelloServiceMain {
             HelloService helloProxy =(HelloService)helloHandle.bind(new HelloServiceImpl());
             helloProxy.sayHello("张三");
 
-
+            System.out.println("李四");
     }
 }
